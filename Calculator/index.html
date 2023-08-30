@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="mainDiv">
+        <div id="heading">
+            <h1>Calculator</h1>
+        </div>
+        <div id="calDiv">
+                <input type="text" name="" id="inputDisplay" disabled><br><br>
+                <div id="buttonsDiv">
+
+                    <button onclick="clears()">C</button>
+                    <button onclick="back()" id="backBtn">Back</button><br><br>
+                    <button onclick="addVal('/')">/</button>
+                    <button onclick="addVal('*')">*</button>
+                    <button onclick="addVal('-')">-</button>
+                    <button onclick="addVal('+')">+</button>
+                    <button onclick="equals()">=</button><br><br>
+                    <button onclick="addVal(1)">1</button>
+                    <button onclick="addVal(2)">2</button>
+                    <button onclick="addVal(3)">3</button>
+                    <button onclick="addVal(4)">4</button><br>
+                    <button onclick="addVal(5)">5</button>
+                    <button onclick="addVal(6)">6</button>
+                    <button onclick="addVal(7)">7</button>
+                    <button onclick="addVal(8)">8</button><br>
+                    <button onclick="addVal(9)">9</button>
+                    <button onclick="addVal(0)">0</button>
+                    <button onclick="addVal('00')">00</button>
+                    <button onclick="addVal('.')">.</button>
+                </div>
+        </div>    
+    </div>
+</body>
+<!-- Javascript -->
+<script src="./app.js"></script>
+</html>

@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+#mainDiv{
+    width: 60%;
+    margin-left: 20%;
+}
+
+#heading{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 20%;
+}
+
+#heading h1{
+    width: 50%;
+    margin-left: 25%;
+}
+
+#calDiv{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 70px;
+    background-color: aqua;
+    align-content: center;
+    border-radius: 10px;
+}
+
+#calDiv input{
+    background-color: burlywood;
+    padding: 5px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+
+#calDiv button{
+    padding: 10px;
+    background-color: rgb(216, 121, 237);
+    border: none;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+#buttonsDiv{
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 40%;   
+}
+
+#backBtn{
+    width: 30%;
+}
